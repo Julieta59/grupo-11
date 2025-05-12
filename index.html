@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JL Fotografía</title>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+  <!-- Header con navegación -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#sobremi">Sobre mí</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="https://www.instagram.com/j.lfotografia/" target="_blank">Instagram</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1>Capturando momentos únicos</h1>
+    <p>Bienvenidos a JL Fotografía — retratos, paisajes y emociones en una sola imagen.</p>
+  </section>
+
+  <!-- Slider (espacio para imágenes) -->
+  <section class="slider">
+    <div class="slider-img">Imagen 1</div>
+    <img src="D:\Users\Julieta\Entrega-Frontend\media\DSC_0542.jpg" alt="Imagen 1">
+    <div class="slider-img">Imagen 2</div>
+    <img src="D:\Users\Julieta\Entrega-Frontend\media\DSC_0515.jpg" alt="Imagen 2">
+    <div class="slider-img">Imagen 3</div>
+    <img src="D:\Users\Julieta\Entrega-Frontend\media\DSC_0434.jpg" alt="Imagen 3">
+
+  </section>
+
+  <!-- Sobre mí (Grid 2 columnas) -->
+  <section id="sobremi" class="sobre-mi-grid">
+    <div class="sobre-mi-texto">
+      <h2>Sobre mí</h2>
+      <p>Hola, soy Julieta, fotógrafa apasionada por contar historias a través de imágenes. Desde retratos íntimos hasta paisajes que quitan el aliento, mi objetivo es capturar la esencia de cada instante. Mi enfoque es cercano, sensible y auténtico.</p>
+    </div>
+    <div class="sobre-mi-img">
+      <img src="D:\Users\Julieta\Entrega-Frontend\media\DSC_0559.jpg" alt="Julieta fotógrafa">
+    </div>
+  </section>
+</section>
+
+<!-- Portfolio (Grid de fotos) -->
+<section id="portfolio" class="portfolio-grid">
+  <img src="D:\Users\Julieta\Entrega-Frontend\media\DSC_0542.jpg" alt="Imagen 1">
+  <img src="D:\Users\Julieta\Entrega-Frontend\media\DSC_0515.jpg" alt="Imagen 2">
+  <img src="D:\Users\Julieta\Entrega-Frontend\media\DSC_0434.jpg" alt="Imagen 3">
+</section>
+
+<!-- Contacto -->
+
+<section class="contact-section">
+  <div class="contact-intro">
+    <h2 class="contact-title">Completá el formulario y ponete en contacto
+    </h2>
+    <p class="contact-description">
+      
+    </p>
+  </div>
+
+  <form class="contact-form" action="" method="POST">
+
+    <input type="hidden" name="access_key" value="" />
+    <input type="hidden" name="subject" value="Formulario de contacto" />
+    <input type="hidden" name="from_name" value="My Website" />
+
+    <div class="form-group-container">
+      <div class="form-group">
+        <label for="name" class="form-label">Tu nombre</label>
+        <input id="name" name="name" class="form-input" placeholder="Your name" type="text" />
+      </div>
+      <div class="form-group">
+        <label for="email" class="form-label">Email</label>
+        <input id="email" name="email" class="form-input" placeholder="Your email" type="email" />
+      </div>
+      <div class="form-group">
+        <label for="phone" class="form-label">Teléfono</label>
+        <input id="phone" name="phone" class="form-input" placeholder="Tu número de contacto" type="text" />
+      </div>
+      <div class="form-group">
+        <label for="message" class="form-label">Mensaje</label>
+        <textarea class="form-textarea" id="message" name="message" placeholder="Tu Consulta"></textarea>
+      </div>
+    </div>
+    <button class="form-submit" type="submit">Enviar</button>
+  </form>
+
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>© 2025 JL Fotografía · Todos los derechos reservados</p>
+</footer>
+
+</html>
